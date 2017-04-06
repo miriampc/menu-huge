@@ -1,0 +1,49 @@
+*{
+  font-family: 'Jaldi', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #575761;
+}
+header h1{
+  font-size: 49px;
+  display:inline-block;
+  color:#E4FDE1;
+}
+.menu-options{
+  top:0;
+  z-index: 1500;
+  display: none;
+  background-color: #E4FDE1;
+  width: 100%;
+  /*height: 100%;*/
+}
+.menu-options p{
+  font-size: 21px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+.menu-options p:hover{
+  background-color: #8ACB88;
+}
+.menu-options p a{
+  text-decoration: none;
+  color:#575761;
+}
+.container{
+  width: 100%;
+  height: 500px
+}
+.icon{
+  border-radius: 5px;
+  float: right;
+  /*background-color: #648381;*/
+}
+.close{
+  display: none;
+}
+
+.show{
+  display: block;
+}
